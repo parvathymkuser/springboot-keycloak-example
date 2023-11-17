@@ -1,8 +1,8 @@
-package com.example.springbootkeycloak.example.employeeController;
+package com.example.springbootkeycloak.example.userController;
 
-import com.example.springbootkeycloak.example.Dto.AuthenticationDto;
-import com.example.springbootkeycloak.example.Dto.AuthenticationResponseDto;
-import com.example.springbootkeycloak.example.employeeService.IAuthenticationService;
+import com.example.springbootkeycloak.example.userDto.AuthenticationDto;
+import com.example.springbootkeycloak.example.userDto.AuthenticationResponseDto;
+import com.example.springbootkeycloak.example.userService.IAuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

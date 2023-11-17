@@ -1,8 +1,5 @@
-package com.example.springbootkeycloak.example.Dto;
+package com.example.springbootkeycloak.example.userDto;
 
-
-import lombok.Getter;
-import lombok.Setter;
 
 public class AuthenticationDto {
     private String userName;

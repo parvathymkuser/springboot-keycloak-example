@@ -1,4 +1,4 @@
-package com.example.springbootkeycloak.example.employeeController;
+package com.example.springbootkeycloak.example.userController;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

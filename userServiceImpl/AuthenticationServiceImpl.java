@@ -1,8 +1,8 @@
-package com.example.springbootkeycloak.example.employeeServiceImpl;
+package com.example.springbootkeycloak.example.userServiceImpl;
 
-import com.example.springbootkeycloak.example.Dto.AuthenticationDto;
-import com.example.springbootkeycloak.example.Dto.AuthenticationResponseDto;
-import com.example.springbootkeycloak.example.employeeService.IAuthenticationService;
+import com.example.springbootkeycloak.example.userDto.AuthenticationDto;
+import com.example.springbootkeycloak.example.userDto.AuthenticationResponseDto;
+import com.example.springbootkeycloak.example.userService.IAuthenticationService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;

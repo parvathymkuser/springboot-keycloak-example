@@ -1,4 +1,4 @@
-package com.example.springbootkeycloak.example.Dto;
+package com.example.springbootkeycloak.example.userDto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
