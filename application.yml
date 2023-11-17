@@ -1,0 +1,34 @@
+server:
+  port : 8082
+
+#  spring:
+#    h2:
+#      console:
+#        enabled:true
+
+keycloak:
+
+   realm: SpringBootKeycloak
+   auth-server-url: http://localhost:8080
+   resource: admin
+   public-client: true
+   bearer-only: true
+
+spring:
+
+
+  datasource:
+    hikari:
+      close-leak-prevention: true
+    url: jdbc:mysql://localhost:3306/paru
+    username: root
+    password: Paru@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    spring:
+      jpa:
+        show-sql=true:
+        generate-ddl=true:
+        hibernate:
+          ddl-auto=update:
+
+
